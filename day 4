@@ -1,0 +1,62 @@
+Switch case :-
+- cases have to be the same type as expressions , must be a constant or litera
+- Dulicate case values are not allowed 
+- If braek is use to terminate the sequence
+-  default will execute when none of the above does 
+-  if default is not at the end , put break after it
+
+
+
+  class Main{
+  public static void main(String[]args){
+    switch(expression){
+      case:
+      statement;
+      breake;
+      defalt:
+      statement;
+    }
+  }
+}
+
+ternari oparater AND EN
+  class Main{
+	public static void main(String[] args) {
+	for( int i=1 ; i<=5 ;i++){
+	    int numbertoprint =2*i-1;
+	    for(int j=1;j<=numbertoprint; j++){
+	        System.out.print(j);
+	    }
+	    System.out.println();
+	}
+		
+	}
+}
+
+class Main{
+    public static void main(String[]args){
+        int n=5;
+        if(n == 5){
+            System.out.println("yes");
+            
+        }else{
+            System.out.println("no");
+        }
+        (condition)? statement1: staement2: -->syntax
+        String res = (n ==5) ? "yes":"no";
+        System.out.println(res);
+    }
+}
+
+
+
+
+enhanced for loop:
+  for each:
+  wherever we dont have length and when ever we dont know index values then we need to use for each loop
+  mostly we use for each loop for collection
+  example: list set and map
+
+for(int num :number){
+  
+  
