@@ -1,0 +1,71 @@
+2 d array consist rows and colu
+  int [][]arr = new int [][]
+  the first [] represents rows and second [] colu
+  where declaring the array we have to give num of rows
+  and to mention no of colums is optional.
+
+  import java.util.Scanner;
+public class Main{
+    public static void main(String[]args){
+        Scanner sc = new Scanner(System.in);
+         System.out.print("rows");
+        int rows = sc.nextInt();
+        System.out.print("colums");
+        int colums = sc.nextInt();
+        int[][]arr = new int [rows][colums];
+         System.out.print("enter ele");
+         for(int i=0; i<rows ;i++){
+             for(int j=0;j<colums; j++){
+                  System.out.print("rows ("+i+","+j+")");
+                  arr[i][j]=sc.nextInt();
+             }
+         }
+         
+          System.out.println("2d array is");
+          for(int i=0 ; i<rows;i++){
+              for(int j=0;j<colums;j++){
+                   System.out.print(arr[i][j]+" ");
+              }
+               System.out.println();
+          }
+        
+    }
+}
+
+arr[5]={1,2,3}
+size of array[5]=length (3)
+
+  colums are dynamic
+  ex:-
+    int[][] arr = new int{
+            {1,2,3 },
+            {4,5},
+            {6,7,8,9}
+        };
+
+
+public class Main{
+    public static void main(String[]args){
+        int[][] arr = {
+            {1,2,3 },
+            {4,5,6},
+            {7,8,9}
+        };
+        int n =arr.length;
+        int sum =0;
+        System.out.print("z : ");
+        for(int i=0; i<n; i++){
+           if(i ==0 || i==n - 1 ){
+               for( int j=0 ;j<n;j++){
+                   System.out.print(arr[i][j]+" ");
+                   sum += arr[i][j];
+               }
+           }else{
+               int j = n - i - 1;
+               System.out.print(arr[i][j]+" ");
+               sum += arr[i][j];
+           }
+        }
+        System.out.println("sum of z"+ sum);
+    }
+}
