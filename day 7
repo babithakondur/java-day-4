@@ -1,0 +1,51 @@
+stacks 
+  last in first out
+  push = add elements in the stack
+  pop = removing the last element 
+  peek = print the top most element 
+
+  next grater element:-
+[2,8,1,4,3,6]
+  at first the last element is pushed into the stack and next 3 4 1 one after the other and it starts the pop oparation and pops the elements 
+  and find the greater element 
+
+
+
+  array list:-
+  array having fixed size we cant increses the size as well as dicre
+  but in array list the size will be dynamic u csn increases the size and dicresess
+  List<Integer> arr = new ArrayList<>();
+  list <wraper class of list type> ArrayListName = new ArrayList<>();
+  list is a interface the angular <> are generics array ist is belongs to collection frameworks and we have to use wraper class followed by array list 
+  infer face conta incomplate metods and class contains complet method 
+  array list is a class we have to import array list class 
+
+  // import java .util.*;
+// public class Main{
+//     public static void main(String[]args){
+//         List<Integer> Leaders = new ArrayList<>();
+//         int []arr = {5,6,2,8,2,6};
+//         int max = Integer.MIN_VALUE;
+//         for(int i=arr.length - 1;i>=0;i--){
+//             if(arr[i]>max){
+//                 Leaders.add(arr[i]);
+//                 max = arr[i];
+//             }
+//         }
+//         Collections.reverse(Leaders);
+//         System.out.println(Leaders);
+//     }
+// }
+
+
+
+  in array list if thearray got inilalized  aize 2 , if we are trying to add 3rd element the size of the list will be doubled and  
+  if aray size is 8 and if we remove 4 elements out of 8 and if we try to remove 5th element the array size will become half 
+
+  if it is sorting we have only 2 
+  when it comes to coustom sorting we can sort the valuse according to our formate
+
+
+
+  greedy -----------------------------------------------------------gggggggggggggggggggggggggggggggggggggggggggggggggggggggg
+  
