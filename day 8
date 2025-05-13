@@ -1,0 +1,47 @@
+recursion:-
+  are nothing but function calling itself and it self till it meets  race condition 
+  function calling another function it self and it self
+  java we dont have pointers so we cant use refarence 
+  and java is  strictly pass by value be couse we dont have refarence 
+  if we didt mention base case properly we will get an exseption called stack over flow
+  recursions are used to breaaaaaaaaaaake the code 
+
+  write the code for factorial using recursions ????????????????????????????????????????????//
+  draw the tree 5!x 4! after writing the recursion tree all the retrunt vaalues will be pusded into the stack 
+  when ever we hits base condition the elements will be poped 
+  fact(n) {
+  if(n==0){
+    return i;
+  }
+  else {
+    return n*fact(n-1);
+    class Main {
+
+    public static int fibonacci(int n) {
+        if (n == 0) {
+            return 0; 
+        } else if (n == 1) {
+            return 1; 
+        } else {
+            return fibonacci(n - 1) + fibonacci(n - 2); // recursive call
+        }
+    }
+
+    public static void main(String[] args) {
+        int n = 10;
+
+        System.out.println("Fibonacci Series up to " + n + " terms:");
+        for (int i = 0; i < n; i++) {
+            System.out.print(fibonacci(i) + " ");
+        }
+    }
+}
+
+
+
+    reverse an array using two pointers??????????????????????????????????????????????????????????????????????????????????????????????
+      [1,3,2,4,6,5] ---- [5,6,4,2,3,1]
+
+
+
+      
