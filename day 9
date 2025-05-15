@@ -1,0 +1,16 @@
+collection of charectors is called strings 
+  int [  ] arr ={1,2,3,4,4}
+all the elements are simlar thqta why we created an array to store the ele ments andd the arraya valuse using index values ,similary to store multiple char to create a string 
+  when u created a string refarence will be wstored in stack memoey , object will be created in string pool it willl be created with some fixedsize so we cant remove and we cant add  we cant modify the string that why strings are immute  
+
+
+  "hello" ......"  "
+  "ello "  ....." h "
+  "llo"   .....  "h"
+  "lo" ..... "hl"
+  "o"  ...."hll"
+  " " ......"hllo"
+  when ever input string becomes empty we have to stop the recursion
+from agiven string skip the entire word called hello
+  
+  
