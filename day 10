@@ -1,0 +1,33 @@
+class Main{
+    public static void main (String [ ]args){
+        String a= "Hello";
+        String b= "Hello";
+        
+        
+        // String a = new String("Hello");
+        // String b = new String("Hello");
+        
+        System.out.println(a == b); ||| Sys(a.equals(b));
+    }
+}
+
+
+
+  split("t")
+  contains
+  trim
+  toupperCase
+  charAt
+  substring
+  startswith
+  length
+
+backtracking it is an example of recursion we have only two steps taking thevaluse not taking the values when ever we reach base case print all the base case elementexs
+    when the Array length is = to original array length 
+    in every recursion calll remove the laast element and it will backtrack
+
+
+
+
+    subset: for a given array will get 2`n subset
+      subset should be sequence not in continous
