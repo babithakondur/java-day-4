@@ -1,0 +1,32 @@
+
+collection frameworks*********************
+
+list                                   set                                     map 
+  arraylist                            hashset                                  hashmap
+  linkedlist                           linkedhashset                             linkedhashmap  
+  vector                               treeset                                   treemap
+
+
+
+  list set map these are 
+  interfaces contains incomplet   methoddddddddddddddddddddddddddddd
+  class contain comple method
+
+  list:-list comtains ordered elements and which cn accept d
+  arraylist it  is a dynamic array and it can 
+
+
+
+  ca
+  fro the give array we hqave to find max sum of subarrays ex
+  exx  123
+  from that subarraya write allt the subarraya 
+  to find max of sub arraya for optimal sol we can use kedanes aloga
+  step 1 initalize 2 vari
+  1 is for indivial sumss and 2 var for max sum and inlitalize with extream 
+  run a loop from 0 to n-1 
+  alwaysudate max val  
+  our target is to get the max sum if we carry max val
+  the over of sum is redused 
+  if we get sum less than 0 restart sum .
+  
