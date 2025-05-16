@@ -27,6 +27,26 @@ backtracking it is an example of recursion we have only two steps taking thevalu
     in every recursion calll remove the laast element and it will backtrack
 
 
+dutch nationall flag alogoritam
+
+the element between m and h are not sorted and we have to run  a loop from m to h 
+if both crosses it means we are reaching each and every element
+if array of m
+after swapping increses m and l
+if array of m is = 1 just move m pointers 
+if arraya of m is = 2 swap array of m whith h
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     subset: for a given array will get 2`n subset
